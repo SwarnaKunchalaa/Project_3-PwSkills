@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-3</title>
+    <!-- Red Rose Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Dela Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+         
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ubuntu&display=swap');
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-family: "Red Rose", cursive;  */
+        }
+        body{
+            font-family: "Dela Gothic One", cursive;
+            scroll-behavior: unset;
+            position: relative;
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('background.png');
+         }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav img{
+            height: 45px;
+            margin: 15px 20px;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+        }
+        nav ul li{
+            margin: 20px;
+            font-size: 20px;
+            color: #ffc233;
+            font-family: "Red Rose";
+        }
+        main button, nav button{
+           padding: 2px 20px;
+           margin: 20px;
+           font-size: 15px;
+           background-color: rgba(238, 59, 59);
+           color: white;
+           border: none;
+           border-radius: 3px;
+           font-weight: bold;
+           cursor: pointer;
+           font-family: "Red Rose";
+        }
+        main{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        main p{
+            margin-top: 25px;
+            font-size: 70px; 
+            font-weight: 300;
+            line-height: 95px;
+            font-style: normal;
+            color: #ffc233;
+            text-align: center;
+        }
+        main button{
+            margin-top: 20px;
+            padding: 12px 22px;   
+            font-family: "Red Rose";
+        } 
+        #scroll{
+            height: 100px;
+            width: 100px;
+            float: right;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body class="img">  
+    <header>
+        <nav>
+            <img src="white-logo.png" alt="">
+            <ul>
+                <li>Our Menu</li>
+                <li>Maps</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <button>Order</button>
+        </nav>
+    </header>
+
+    <main>
+        <p>Restaurant That <br> Only Serves  <br> Delicious Food</p>
+        <button>Read Our Menu</button>
+    </main>
+
+    <footer>
+        <div ><img src="scrool.png" alt="" id="scroll"></div>
+    </footer>
+
+</body>
+</html>
